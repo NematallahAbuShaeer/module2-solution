@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Assignment Solution for Module 2</title>
+<style >
+/********** Base styles **********/
+*{ 
+    box-sizing: border-box;
+    padding:0px;
+    margin:5px;
+    margin-top:0px;
+    margin-right:0px;
+    font-family: cursive;
+    clear:right;
+    color: black;
+    font-weight: bold;
+   } 
+ h1{
+    text-align: center;  
+   }
+ h4{
+    padding-right:30px;
+    padding-left:30px;
+    padding-top:3px;
+    padding-bottom:3px;
+    border: 1px solid black;
+    float:right;
+    font-size:16px;
+  }
+ section{
+    border: 1px solid black;
+    background-color: gray;
+    float:left;
+    margin:12px;
+    margin-right:22px;
+  }
+ p{
+   width:90%;
+   font-size:12px;
+  }
+ #h1{
+   background-color: #F08080;
+  }
+ #h2{
+   background-color:  #A52A2A;
+   color: white;
+ }
+ #h3{
+   background-color:  #EEE8AA;
+ }
+
+/**********  Desktop view  only **********/
+@media (min-width: 992px) {
+ #p1 {
+    width: 30%;
+  }
+  #p2 {
+    width: 30%;
+  }
+  #p3 {
+    width: 30%;  
+  }
+}
+
+/**********Tablet view only  **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #p1 {
+    width: 45%;
+  }
+  #p2 {
+    width: 45%;
+  }
+  #p3 {
+    width: 94%;
+ }
+}
+
+/**********  Mobile view  only **********/
+@media (max-width: 767px) {
+  #p1 {
+    width: 93%;
+  }
+  #p2 {
+    width: 93%;
+  }
+  #p3 {
+    width: 93%;
+  }
+}
+</style>
+</head>
+<body>
+  <h1> Our Menu </h1>
+
+  <section  id="p1" > 
+    <h4 id="h1" >Chicken</h4>
+    <p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </section>
+ 
+  <section  id="p2">
+     <h4 id="h2">Beef</h4>
+     <p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </section>
+ 
+  <section  id="p3">
+    <h4 id="h3">Sushi</h4>
+    <p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>   
+  </section>
+</body>
+</html>
